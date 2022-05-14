@@ -138,7 +138,7 @@ top: 12%;
 .art3 {
     position: relative;
     background-color: var(--cor3_5);
-    height: 490px;
+    height: 520px;
     padding: 0 20px;
 }
 
@@ -166,8 +166,8 @@ top: 12%;
 .art3 img {
     display:block;
     position: absolute;
-    top: -200%;
-    right: -70%;
+    top: 32%;
+    right: 17%;
 }
 
 .art4 {
@@ -201,6 +201,30 @@ top: 12%;
     right: 4%;
 }
 
+.art4 img {
+    display:block;
+    position: absolute;
+    top: 32%;
+    left: 17%;
+}
+
+.art4 div {
+    border: 1px solid white;
+    background-color: var(--corpreto);
+    color: white;
+    text-align: center;
+    padding: 6px;
+    width: 90px;
+    position: absolute;
+    bottom: 5%;
+    right: 39%;
+}
+
+.art4 div:hover {
+    background-color: var(--cor3_5);
+    text-decoration: underline;
+}
+
 .art5 {
     position: relative;
     background-color: var(--cor3_5);
@@ -230,6 +254,30 @@ top: 12%;
     max-width: 450px;
     top: 50%;
     
+}
+
+.art5 img {
+    display:block;
+    position: absolute;
+    top: 34%;
+    left: 68%;
+}
+
+.art5 div {
+    border: 1px solid white;
+    background-color: var(--corpreto);
+    color: white;
+    text-align: center;
+    padding: 6px;
+    width: 90px;
+    position: absolute;
+    bottom: 6%;
+    left: 2%;
+}
+
+.art5 div:hover {
+    background-color: var(--cor3_5);
+    text-decoration: underline;
 }
 
 footer {
