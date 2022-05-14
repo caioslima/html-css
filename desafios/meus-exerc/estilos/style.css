@@ -96,12 +96,13 @@ nav > a:hover {
 
 .art1 p {
     position: absolute;
-    top: 42%;
+    top: 35%;
 }
 
 .art1 h1 {
+    font-size: 3em;
     position: absolute;
-    top: 47%;
+    top: 40%;
 }
 
 .art2 {
@@ -157,8 +158,16 @@ top: 12%;
     position: absolute;
     line-height: 1.8em;
     list-style-position: inside;
+    margin-left: 25px;
     max-width: 450px;
     top: 70%;
+}
+
+.art3 img {
+    display:block;
+    position: absolute;
+    top: -200%;
+    right: -70%;
 }
 
 .art4 {
@@ -196,18 +205,50 @@ top: 12%;
     position: relative;
     background-color: var(--cor3_5);
     height: 700px;
+    padding: 0 20px;
+}
+
+.art5 h1 {
+    position: absolute;
+    max-width: 450px;
+    top: 15%;
+    
+}
+
+.art5 p {
+    position: absolute;
+    max-width: 450px;
+    line-height: 1.7em;
+    top: 25%;
+    
+}
+
+.art5 ul {
+    position: absolute;
+    line-height: 1.8em;
+    list-style-position: inside;
+    max-width: 450px;
+    top: 50%;
+    
 }
 
 footer {
     position: relative;
     background-color: var(--cor6);
     height: 200px;
+    padding: 0 20px;
 }
 
 footer a {
     text-decoration: none;
+    color: white;
+    margin-right: 30px;
     position: absolute;
     top: 30%;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 footer p {
