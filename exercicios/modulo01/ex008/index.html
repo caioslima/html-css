@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de texto</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Principais formatações</h1>
+    <hr>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase, temos um <b>termo em negrito</b> usando a tag &lt;b&gt; &lt;/b&gt; (tag não semântica)</p>
+    <p>Nesta frase, temos um <strong>termo em destaque</strong> usando a tag &lt;strong&gt; &lt;/strong&gt; (tag semântica)</p> <!--A frase demilitada possui força. Logo aparecerá em NEGRITO-->
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag &lt;i&gt; &lt;/i&gt; (tag não semântica)</p> 
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag &lt;em&gt; &lt/em&gt; (tag semântica)</p>
+    <!--A frase demilitada dá ÊNFASE. Logo aparecerá em ITÁLICO-->
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também um <mark style="background-color: lawngreen">texto marcado</mark> usando a tag &lt;mark&gt; &lt;/mark&gt;.</p> <!--Aqui utilizamos a style(css) para fazer uma alteração PONTUAL  no estilo dessa tag. Ou seja, irá funcionar apenas nessa tag-->
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final.</p> <!--As tags não herdam os estilos usados nas tags anteriores-->
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste parágrafo.</p> <!-- A tag "big" não está  mais em conformidade. Já a tag "small" ainda funciona, pois, significa side coments such as small print-->
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excluido</del> para indicar que ele deve ser lido, mas não considerado.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar ênfase e indicar que ele foi adcionado depois.</p>
+    <p>Existe também o <u>sublinhado</u> com a tag &lt;u&gt; &lt;/u&gt;. (tag não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo: X<sup>20</sup>+3</p> <!-- A tag "sup" deixa o caracter lá em cima-->
+    <h2>Texto subscrito</h2>
+    <P>Para inserir coisas do tipo: H<sub>2</sub>O</P> <!-- A tag "sub" deixa o caracter lá em baixo-->
+</body>
+</html>

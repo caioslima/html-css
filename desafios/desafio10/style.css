@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body {
+    background-color: #84E1AD;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: linear-gradient(to bottom, #3DDA84, #1A5C38);
+}
+header > h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+header > p {
+    text-align: center;
+    color: white;
+    
+}
+nav {
+    background-color: #1A5C38;
+    padding-left: 4px;
+}
+nav > div {
+    display: inline-block;
+    padding: 5px 2px;
+    margin-right: 2px;
+    font: bolder 1em arial;
+    color: white;
+}
+nav > div:hover {
+    background-color: #339B69;
+    color: #1A5C38;
+    border-radius: 3px;
+}
+main {
+    background-color: white;
+    margin: 0px 115px 0px 115px;
+    padding: 0 10px 0 10px;
+    border-radius: 0 0 5px 5px;
+}
+footer > p {
+    background-color: #1A5C38;
+    padding: 4px;
+    text-align: center;
+}
+#historia > h1 {
+    padding-top: 15px;
+    font-size: 2em;
+    color: #21613E;
+}
+.margem {
+    margin: 0;
+}
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+h2{
+    background-image: linear-gradient(to left, white, #b2d6c3);
+    color: #21613E;
+}
+#dandroid {
+    width: 700px;
+    margin-top: 20px;
+}
+#irina {
+    width: 691px;
+    margin: 25px 0 25px 0;
+}
+#bugdroid {
+    margin: 0 auto 0 auto;
+}
+#videodroid {
+    background-color: #1A5C38;
+    padding: 10px 0 10px 0;
+}
+iframe {
+    
+    margin-left: 30px;
+}
+#barra {
+    background-color: #2FA866;
+    color: white;
+    font: bolder 1em arial;
+    text-align: left;
+    padding: 12px;
+    margin: 15px 0 0 0;
+    border-radius: 15px 15px 0 0;
+}
+#barrao {
+    background-color: #C5EBD6;
+    border-radius: 0 0 15px 15px;
+    padding: 5px;
+}
+a {
+    background-color: #b2d6c3;
+    color: #21613E;
+    font: bolder 1em arial;
+}
+ul {
+    display: inline-block;
+    margin: 0 120px 0 10px;
+}

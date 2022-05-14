@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+:root {
+    --corheader: #E44C89;
+    --corpreto: #171717;
+    --corpreto_cinza: #242424;
+    --cor1: #274B47;
+    --cor3_5: #2F2F2F;
+    --cor2_4: #171717;
+    --cor6: #404040;
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: var(--corpreto_cinza);
+}
+
+header {
+    background-image:linear-gradient(to right, var(--corheader)40%, #B5B3C4 , #E3C492, #D5975C, #E47D8C, #E57151);
+    height: 150px;
+    position: relative;
+}
+
+header h1 {
+    position: absolute;
+    font-weight: bold;
+    color: var(--corpreto);
+    top:29%;
+    left: 2%;
+}
+
+header p {
+    position: absolute;
+    color: var(--corpreto);
+    top: 65%;
+    left: 2%;
+}
+
+div#topbox {
+    background-color: var(--corpreto_cinza);
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    margin-left: 37%;
+
+}
+
+div#topbox > a {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+div#x {
+    position: absolute;
+    background-color: var(--cor3_5);
+    padding: 6px 11px;
+    font-size: 1em;
+    top: 22px;
+    right: 22px;
+}
+
+nav {
+    background-color: var(--corpreto);
+    padding: 20px 10px;
+    margin-bottom: 1px;
+}
+
+nav > a {
+    text-decoration: none;
+    font-size: .8em;
+    font-weight: bold;
+    color: white;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+.art1 {
+    background-color: var(--cor1);
+    height: 410px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.art1 p {
+    position: absolute;
+    top: 42%;
+}
+
+.art1 h1 {
+    position: absolute;
+    top: 47%;
+}
+
+.art2 {
+    background-color: var(--cor2_4);
+    height: 510px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

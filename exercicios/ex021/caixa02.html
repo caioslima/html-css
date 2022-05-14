@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(85, 172, 223);
+            margin: 0;
+        }
+        header {
+            background-color: white;
+            padding: 1px 10px 10px 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(97, 97, 97);
+            padding: 6px;
+            width: 305px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.89);
+        }
+        nav>a {
+            text-decoration: none;
+            font-weight: bold;
+            color: aliceblue;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        nav>span > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: aliceblue;
+            margin-right: 0;
+        }
+        nav > span > a:hover {
+            text-decoration: underline;
+            }
+        main {
+            background-color: white;
+            padding: 1px 10px 10px 10px;
+            margin: 10px;
+            border-radius: 25px 0px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.658);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 6px;
+
+        }
+        article {
+            background-color: lightgray;
+        }
+        article>aside {
+            background-color: rgb(148, 147, 147);
+        }
+        footer > p {
+            text-decoration: underline;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <span><a href="#">Link</a></span>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>ESPORTES | POLITICA | TECNOLOGIA</h2>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, debitis ullam! Id nobis accusamus, ipsum dicta iure iste, neque quos voluptatibus incidunt eum culpa debitis deleniti? Laborum debitis adipisci accusantium, facilis vel reiciendis vero officia autem sequi unde illo suscipit veniam, incidunt modi alias velit doloribus amet natus magni deleniti illum aut expedita cum? Ullam id quod, quam, suscipit odio dolore, fugiat at modi temporibus delectus libero deserunt blanditiis. Velit nemo amet impedit. Ex voluptatum ipsam eos, hic amet saepe. Nostrum recusandae minus atque maxime perferendis officiis adipisci odit quisquam aperiam explicabo officia dignissimos, incidunt velit repudiandae repellat. Ex, vitae? Possimus velit inventore cum? Pariatur harum voluptates cum! Aliquam natus dicta nulla laudantium molestias consectetur error similique tempore, officiis deleniti.</p>
+                <aside>
+                    <p>Artigo escrito por: <strong>José da Silva</strong></p>
+                </aside>
+            </article>
+            <article></article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Caio Lima</p>
+    </footer>
+</body>
+</html>

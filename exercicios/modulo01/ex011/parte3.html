@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Reproduzindo mídias</h1>
+    <h2>Reproduzindo áudio</h2>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/fb-usmb.mp3" controls autoplay></audio> <!--Formatos de áudios para pegar em todos os navegadores seriam: MP3, WAV, OGG-->
+    <h2>Segunda opção de colocar áudios</h2>
+    <audio preload="metadata">
+        <source src="midia/fb-usmb.mp3" type="audio/mpeg">
+        <source src="midia/fb-usmb.ogg" type="audio/ogg">
+        <source src="midia/fb-usmb.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>
+        <!--Os "sources" acima serão reproduzidos de cima para baixo até um pegar. No caso caso o navegador não consiga reproduzir nehum arquivo irá aparecer a mensagem que deixei no <P>-->
+    </audio>
+</body>
+</html>
