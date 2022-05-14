@@ -107,6 +107,20 @@ nav > a:hover {
 .art2 {
     background-color: var(--cor2_4);
     height: 510px;
+    position: relative;
+    padding: 0 10px;
+}
+
+.art2 h1 {
+position: absolute;
+max-width: 400px;
+top: 10%;
+}
+
+.art2 p {
+    position: absolute;
+    max-width: 400px;
+    top: 20%;
 }
 
 footer a {
